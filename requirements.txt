@@ -1,0 +1,7 @@
+google-api-core>=2.19.1
+# TODO: Add google_cloud_dataproc version once it's available
+pandas>=2.2.2
+pyarrow>=17.0.0
+pyspark==3.5
+setuptools>=72.0.0
+websockets>=12.0
