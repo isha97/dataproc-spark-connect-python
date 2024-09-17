@@ -15,7 +15,7 @@ name: Pyink
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [ main, pyink-github-action ]
   pull_request:
     branches: [ main ]
 
