@@ -15,7 +15,7 @@ from setuptools import find_namespace_packages, setup
 
 setup(
     name="dataproc-spark-connect",
-    version="0.1.2",
+    version="0.1.0",
     description="Dataproc client library for Spark Connect",
     packages=find_namespace_packages(include=["google.*"]),
     install_requires=[
