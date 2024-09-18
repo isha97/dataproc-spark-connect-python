@@ -12,11 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 from setuptools import find_namespace_packages, setup
+from pathlib import Path
+
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
 
 setup(
     name="dataproc-spark-connect",
     version="0.1.0",
     description="Dataproc client library for Spark Connect",
+    long_description=long_description,
     packages=find_namespace_packages(include=["google.*"]),
     install_requires=[
         "wheel",
